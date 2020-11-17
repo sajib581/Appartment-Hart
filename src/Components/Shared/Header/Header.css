@@ -1,0 +1,15 @@
+.login-btn{
+    border-radius: 5px;
+    background: #275A53;
+    padding: 5px 30px ;
+    color: white;
+    border: none;
+}
+
+.header-img{
+    height: 50px ;
+}
+
+.highlight{
+    font-weight: 600 ;
+}
