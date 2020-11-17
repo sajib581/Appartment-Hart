@@ -4,7 +4,17 @@ import './HeaderMain.css'
 const HeaderMain = () => {
     return (
         <div className="headerMain">
-            <h1>It is hader main</h1>
+            <div className="header-function">
+                <h2>FIND YOUR HOUSE RENT</h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="text" className="form-control mr-5" placeholder="Search ..." id="findHouse"></input>
+                    </div>
+                    <div class="col-md-4">
+                        <button className="login-btn">Find Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

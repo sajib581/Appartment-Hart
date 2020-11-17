@@ -3,11 +3,42 @@
     border: 1px solid blue;
     background-image: ; */
 
-    background-image: url("https://i.ibb.co/3y04Dsd/Rectangle-13.png"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    
+    position: relative;
+    background-color: #000;
+    height : 300px;
+
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
 }
+
+.headerMain::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    background: url("https://i.ibb.co/3y04Dsd/Rectangle-13.png") no-repeat center center;
+    background-size: cover;
+}
+
+
+
+  .header-function h2{
+      color: white;
+      text-align: center;
+      
+  }
+
+  .header-function{
+      width: 50%;
+      
+      
+  }

@@ -1,0 +1,27 @@
+.product{
+    width: 350px ;
+    background-color: white;
+}
+.product img{
+    width: 100%;
+}
+.product h5{
+    font-weight : bold;
+}
+.smalll-img{
+    width: 15px !important; 
+    margin-right: 10px;
+}
+h4{
+    color: #275A53 ;
+    font-weight : 700;
+}
+.view-btn{
+    background: #275A53;
+    padding: 5px 20px ;
+    color: white;
+    border: none;
+}
+.house-rent h2,span{
+    color: #16322E;
+}
