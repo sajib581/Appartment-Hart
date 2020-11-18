@@ -55,3 +55,25 @@ export const fakeData = [
     }
     
 ]
+
+export const serviceFakeData = [ 
+    {
+        name: 'Wide Range of Properties',
+        image: 'https://i.ibb.co/gvdHhCf/apartment-1.png',
+        description: 'With a robust selection of popular properties on hand, as well as leading properties from experts.',
+        id: '1'
+    },
+    {
+        name: 'Financing Made Easy ',
+        image: 'https://i.ibb.co/cyszNw9/affordable-1.png',
+        description: 'Our stress-free finance department that can find financial solutions to save you money.',
+        id: '2'
+    },
+    {
+        name: 'Trusted by Thousands',
+        image: 'https://i.ibb.co/ZTfBzWN/lessee-1.png',
+        description: '10 new offers every day. 350 offers on site, trusted by a community of thousands of users.',
+        id: '3'
+    }
+    
+]
