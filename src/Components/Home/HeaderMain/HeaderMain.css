@@ -29,7 +29,9 @@
     background-size: cover;
 }
 
-
+.headerMain h1{
+    color: white !important;
+}
 
   .header-function h2{
       color: white;

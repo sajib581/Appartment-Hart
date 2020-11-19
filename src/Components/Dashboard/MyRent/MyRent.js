@@ -27,7 +27,7 @@ const MyRent = () => {
       <div style={{ marginTop: 30 }} className=" col-md-10 p-4 pr-5 ml-auto">
         <h3 className="text-dark">Add Rent House</h3>
         <table className="table table-borderless">
-          <thead class="thead-dark">
+          <thead className="thead-dark">
             <tr>
               <th
                 style={{ width: "5%" }}
@@ -50,7 +50,7 @@ const MyRent = () => {
           </thead>
           <tbody>
             {servicesList.map((srvclst, index) => (
-              <tr>
+              <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{srvclst.name}</td>
                 <td>{srvclst.price}</td>
