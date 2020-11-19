@@ -30,9 +30,9 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <Route path="/appartment">
+          <PrivateRoute path="/appartment">
           <Appartment></Appartment>
-          </Route>
+          </PrivateRoute>
           <Route exact path="/">
             <Home></Home>
           </Route>
