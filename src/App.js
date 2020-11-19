@@ -30,13 +30,12 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <PrivateRoute path="/appartment">
+          <Route path="/appartment">
           <Appartment></Appartment>
-          </PrivateRoute>
+          </Route>
           <Route exact path="/">
             <Home></Home>
           </Route>
-
           <Route path="/dashboard">
             <Dashboard />
           </Route>
@@ -49,7 +48,6 @@ function App() {
           <Route path="/myRent">
             <MyRent />
           </Route>
-
         </Switch>
       </Router>
       </UserContext.Provider>

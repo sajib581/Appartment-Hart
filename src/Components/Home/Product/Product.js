@@ -1,8 +1,15 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import './product.css'
 
 const Product = (props) => {
+    let history = useHistory();
     const { name, location, bedroom, bathroom, image, price, id } = props.data;
+
+    const clickHandeler = (image,name,price) => {
+        localStorage.setItem('imageLink',image)
+        history.push(`/appartment`);
+    }
     return (
         <div className="product my-3">
             <img src={image} alt="image" />
@@ -15,7 +22,7 @@ const Product = (props) => {
                 </div>
                 <div className="d-flex mt-3">
                     <h4>{price}</h4>
-                    <button className="view-btn ml-5">View Details</button>
+                    <button onClick={()=>clickHandeler(image,name,price)} className="view-btn ml-5">View Details</button>
                 </div>
             </div>
         </div>

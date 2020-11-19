@@ -21,7 +21,7 @@ const BookingList = () => {
       <div style={{ marginTop: 30 }} className=" col-md-10 p-4 pr-5 ml-auto">
         <h3 className="text-dark">Booking List</h3>
         <table className="table table-borderless">
-          <thead class="thead-dark">
+          <thead className="thead-dark">
             <tr>
               <th
                 style={{ width: "5%" }}
@@ -50,7 +50,7 @@ const BookingList = () => {
           </thead>
           <tbody>
             {servicesList.map((srvclst, index) => (
-              <tr>
+              <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{srvclst.name}</td>
                 <td>{srvclst.email}</td>

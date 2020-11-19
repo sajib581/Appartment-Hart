@@ -12,7 +12,7 @@ const Services = () => {
             clients' needs that always delivers</h2>
                 <div className="row my-5">
                     {
-                        serviceFakeData.map(data => <ServiceData data={data}></ServiceData>)
+                        serviceFakeData.map(data => <ServiceData key={data.id}data={data}></ServiceData>)
                     }
                 </div>
             </div>
